@@ -1,0 +1,54 @@
+Usage Guide:
+Prerequisites:
+
+    Ensure that you have gcc installed to compile the C program.
+    Make sure you have appropriate permissions to execute Bash scripts on your system.
+
+Installation:
+
+    Download the files:
+        Download the provided C code (system_monitor.c) and the Bash script (resource_monitor.sh) to your local system.
+
+    Compile the C code:
+        Open a terminal and navigate to the directory containing system_monitor.c.
+        Compile the C code using the following command:
+
+    gcc system_monitor.c -o system_monitor
+
+Set executable permissions for the Bash script:
+
+    Navigate to the directory containing resource_monitor.sh.
+    Run the following command to make the Bash script executable:
+
+    bash
+
+        chmod +x resource_monitor.sh
+
+Running the Program:
+
+    Execute the compiled C program by running:
+
+    bash
+
+    ./system_monitor
+
+    Follow the on-screen menu to select different options for system monitoring and resource management.
+
+Options:
+
+    Display Date and Time: View the current date and time.
+    Display Host Name: View the system's host name.
+    Display Release Information: View the system's release information.
+    Display Kernel Version: View the system's kernel version.
+    Display CPU/Core Count: View the number of CPUs or processor cores.
+    Display Total System Memory: View the total system memory (RAM).
+    Add System Snapshot to History: Add a snapshot of the current system information to the history.
+    Display Historical System Snapshots: View historical system snapshots, including date and time, host name, release information, kernel version, CPU count, and total system memory.
+    Execute System Resource Monitor (Bash Script): Run the system resource monitor Bash script (resource_monitor.sh).
+    Exit: Exit the program.
+
+Modifying Refresh Rate (Optional):
+
+    Option 9 allows you to modify the refresh rate of the resource monitor.
+    Follow the on-screen prompts to enter the new refresh rate in seconds.
+    The refresh rate will be updated in the Bash script for the resource monitor.
